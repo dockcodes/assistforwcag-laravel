@@ -1,0 +1,31 @@
+{
+  "name": "dockcodes/assistforwcag-laravel",
+  "description": "Package to inject accessibility widget",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "email": "j.labudda@creativa.studio",
+      "name": "Jacek Labudda"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Dock\\AssistForWCAG\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Dock\\AssistForWCAG\\DockServiceProvider"
+      ],
+      "aliases": {
+        "AssistForWCAG": "Dock\\AssistForWCAG\\Facades\\AssistForWCAG"
+      }
+    }
+  },
+  "require": {
+    "php": "^8.2",
+    "illuminate/support": "^9|^10|^11|^12|^13"
+  }
+}
