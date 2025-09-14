@@ -1,11 +1,11 @@
 # AssistForWCAG Laravel Package
 
-This package allows you to quickly integrate the Assist for WCAG accessibility widget into your Laravel application. Using environment variables for configuration, you can generate the necessary JavaScript snippet and insert it anywhere on your site with a Blade directive (`@accessibilityWidget`) or directly in PHP.
+This package allows you to quickly integrate the Assist for WCAG accessibility widget into your Laravel application. Using environment variables for configuration, you can generate the necessary JavaScript snippet and insert it anywhere on your site with a Blade directive (`@assistForWCAG`) or directly in PHP.
 
 Features:
 - Easy setup with environment variables
 - Blade directive for simple insertion
-- 
+
 ## Installation
 
 ### 1. Require package in your  `composer.json`:
